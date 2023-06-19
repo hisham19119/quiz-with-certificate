@@ -20,9 +20,9 @@ function Login() {
   return (
     <div className='l-container'>
       <div className='l-wrapper'>
-        <form onSubmit={handleSubmit}>
-          <input ref={refInput} type='text' onChange={(e) => { setUser(e.target.value) }} />
-          <button type='submit'>start quiz</button>
+        <form className='l-form' onSubmit={handleSubmit}>
+          <input className='l-input' placeholder='Type your name ' ref={refInput} type='text' onChange={(e) => { setUser(e.target.value) }} />
+          <div  className='l-button'><button  type='submit'>Start quiz</button></div>
         </form>
       </div>
     </div>
