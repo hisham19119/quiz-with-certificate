@@ -9,6 +9,7 @@ background-color: #0e141b;
 }
 .q-wrapper{
 width:60%;
+padding-left: 20px;
 height:500px;
 padding-top:30px;
 border:solid 3px  #8e3257;
@@ -172,7 +173,7 @@ border-radius:10px ;
     text-decoration: none;
     text-transform: capitalize;
 }
-.view{
+/* .view{
 
     letter-spacing: 3px;
     flex:2;
@@ -199,4 +200,4 @@ border-radius:10px ;
     -ms-transition: all 0.4s ease-in;
     -o-transition: all 0.4s ease-in;    
     cursor: pointer;
-    }
+    } */

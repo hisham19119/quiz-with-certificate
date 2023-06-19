@@ -102,7 +102,7 @@ function Quizz() {
 
           {percentageRightAnswers >= 50 ? (
             <a className='r-link'  > 
-            <button className='view' onClick={handleCertificate}>
+            <button className='.q-btn' onClick={handleCertificate}>
                         View My Certificate
             </button>
             </a>
