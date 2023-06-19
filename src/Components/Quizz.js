@@ -101,7 +101,7 @@ function Quizz() {
           <p className='r-p'>Your degree is : {(numRightAnswers / totalQuestions) * 100} % </p>
 
           {percentageRightAnswers >= 50 ? (
-            <a className='.r-link' > 
+            <a className='r-link'  > 
             <button className='view' onClick={handleCertificate}>
                         View My Certificate
             </button>
